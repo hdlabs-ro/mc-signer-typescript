@@ -1,0 +1,31 @@
+{
+  "name": "mc-signer-typescript",
+  "version": "1.0.0",
+  "description": "MariaChain Typescript Transaction Signer",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hdlabs-ro/mc-signer-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hdlabs-ro/mc-signer-typescript/issues"
+  },
+  "homepage": "https://github.com/hdlabs-ro/mc-signer-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
